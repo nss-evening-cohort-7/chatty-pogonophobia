@@ -1,5 +1,5 @@
 # Chatty Group Project
-Your group will be creating a chat application. The features your team will build have already been added to your backlog. This application should demonstrate your skills in:
+Your group will be creating a chat application. The features your team will build have already been added to your backlog in the "projects" section of this repo. This application should demonstrate your skills in:
 - Modular code
 - Dependency chaining
 - Asynchronous code
