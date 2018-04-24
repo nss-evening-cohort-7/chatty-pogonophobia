@@ -1,11 +1,7 @@
 const outputDiv = document.getElementById('messages');
 
-const domStringBuilder = () => {
-
-};
-
-const printToDom = (messagesArray) => {
-  outputDiv.innerHTML = domStringBuilder(messagesArray);
+const printToDom = (string) => {
+  outputDiv.innerHTML = string;
 };
 
 module.exports = printToDom;
