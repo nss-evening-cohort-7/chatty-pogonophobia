@@ -1,0 +1,9 @@
+{
+	"messages": [{
+		"name": "Dusty",
+		"color": "Green",
+		"specialSkill": "Gives sincere apologies.",
+		"type": "cat",
+		"imageUrl": "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg"
+	}]
+}
