@@ -15,9 +15,13 @@ const setMessages = (messageArray) => {
 const pushData = (e) => {
   console.log(e);
   const inputVaule = document.getElementById('inputField').value;
-  messages.push(`{message:"${inputVaule}"}`);
+  const inputObject = {};
+  inputObject.message = inputVaule;
+  messages.push(inputObject);
   console.log(messages);
-  dom.buildDomString(messages);
+  const messageUpdated = getMessages();
+  dom.printToDom(messageUpdated);
+  // clearInput(inputVaule);
 };
 
 module.exports = {
