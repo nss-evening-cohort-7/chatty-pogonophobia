@@ -1,16 +1,13 @@
 const data = require('./data');
+const rebuildDom = require('./dom');
 
 const clearMessagesBtn = document.getElementById('clearBtn');
 
 const messageClear = () => {
-  const allMessages = data.getMessages();
-  allMessages.forEach((message) => {
-    if (allMessages.length > 0) {
-      allMessages.pop();
-    }
-  });
+  let allMessages = data.getMessages();
+  allMessages = [];
 
-  console.log(allMessages);
+  rebuildDom.printToDom(allMessages);
   return allMessages;
 };
 
