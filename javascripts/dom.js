@@ -1,9 +1,25 @@
+
 const outputDiv = document.getElementById('messages');
 const domEvents = require('./messageClearEvent');
 
-const printToDom = (string) => {
-  outputDiv.innerHTML = string;
-  domEvents.addClearBtnEvents();
+const buildDomString = (messages) =>
+{
+  let domString = '';
+  messages.forEach((message, index) => {
+    domString += `<div data-message-id='${index}' class='messages'>`;
+    domString +=  `<p>${message.message}</p>`;
+    domString +=  `<button class='deleteBtn'>Delete</button>`;
+    domString += `</div>`;
+  });
+  return domString;
 };
 
-module.exports = printToDom;
+const printToDom = (string) => {
+  outputDiv.innerHTML = buildDomString(string);
+};
+
+module.exports =
+  {
+    printToDom,
+    buildDomString,
+  };

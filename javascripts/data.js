@@ -1,3 +1,5 @@
+const dom = require('./dom');
+
 let messages = [];
 
 const getMessages = () => {
@@ -6,6 +8,7 @@ const getMessages = () => {
 
 const setMessages = (messageArray) => {
   messages = messageArray;
+  dom.buildDomString(messages);
 };
 
 module.exports = {
