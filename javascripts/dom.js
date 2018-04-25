@@ -1,6 +1,4 @@
-
 const outputDiv = document.getElementById('messages');
-const domEvents = require('./messageClearEvent');
 
 const buildDomString = (messages) =>
 {

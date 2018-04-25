@@ -1,5 +1,6 @@
 const data = require('./data');
-const allMessages = data.getMessages();
+const allMessages = data.messages;
+console.log(allMessages);
 
 const clearMessagesBtn = document.getElementById('clearBtn');
 
