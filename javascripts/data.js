@@ -9,6 +9,7 @@ const getMessages = () => {
 const setMessages = (messageArray) => {
   messages = messageArray;
   dom.buildDomString(messages);
+  console.log(messages);
 };
 
 module.exports = {
