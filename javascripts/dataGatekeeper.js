@@ -1,8 +1,11 @@
 const http = require('./messages');
+const dom = require('./dom');
+const data2 = require('./data');
 
 function successXhr () {
   const data = JSON.parse(this.responseText).messages;
-  console.log(data);
+  data2.setMessages(data);
+  console.log(dom.printToDom(data));
 };
 
 function failXhr () {
