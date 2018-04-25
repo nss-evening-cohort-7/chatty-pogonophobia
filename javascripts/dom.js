@@ -12,8 +12,16 @@ const buildDomString = (messages) =>
   return domString;
 };
 
+const checkForMessages = () => {
+  const messageBoard = data.getMessages();
+  if (messageBoard.length < 1) {
+    clearMessagesBtn.disabled = true;
+  }
+};
+
 const printToDom = (string) => {
   outputDiv.innerHTML = buildDomString(string);
+
 };
 
 module.exports =

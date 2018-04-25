@@ -8,7 +8,6 @@ const messageClear = () => {
   allMessages = [];
 
   rebuildDom.printToDom(allMessages);
-  return allMessages;
 };
 
 const addClearBtnEvent = () => {
