@@ -1,4 +1,3 @@
-
 const outputDiv = document.getElementById('messages');
 
 const buildDomString = (messages) =>
