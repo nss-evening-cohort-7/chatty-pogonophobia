@@ -5,7 +5,7 @@ const data2 = require('./data');
 function successXhr () {
   const data = JSON.parse(this.responseText).messages;
   data2.setMessages(data);
-  console.log(dom.printToDom(data));
+  dom.printToDom(data);
 };
 
 function failXhr () {

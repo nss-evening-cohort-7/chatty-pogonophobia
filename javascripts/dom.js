@@ -1,4 +1,5 @@
-const messOutputDiv = document.getElementById('messages');
+
+const outputDiv = document.getElementById('messages');
 
 const buildDomString = (messages) =>
 {
@@ -12,13 +13,12 @@ const buildDomString = (messages) =>
   return domString;
 };
 
-const printToDom = (messages) =>
-{
-  messOutputDiv.innerHTML = buildDomString(messages);
+const printToDom = (string) => {
+  outputDiv.innerHTML = buildDomString(string);
 };
 
 module.exports =
-{
-  printToDom,
-  buildDomString,
-};
+  {
+    printToDom,
+    buildDomString,
+  };
