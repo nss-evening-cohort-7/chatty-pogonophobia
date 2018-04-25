@@ -7,7 +7,7 @@ const messageClear = () => {
   if (allMessages.length > 0) {
     allMessages.pop();
   }
-  console.log(allMessages);
+  return allMessages;
 };
 
 const addClearBtnEvent = () => {

@@ -1,9 +1,10 @@
 const http = require('./messages');
+const dataSet = require('./data');
 const domEvents = require('./messageClearEvent');
 
 function successXhr () {
   const data = JSON.parse(this.responseText).messages;
-  console.log(data);
+  dataSet.setMessages(data);
   domEvents();
 };
 
