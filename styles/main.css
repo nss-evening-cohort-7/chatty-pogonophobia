@@ -29,7 +29,20 @@ body{
 }
 
 .venom {
-  background-image: url(http://hdphonewallpapers.com/content/sOeN3mBNbZCyNHcz5oEOb3GDTmd34oHLDw5XxLxQ6Nefc6Qx51seY9PzIa4QJITv.jpg);
-  background-repeat: none;
-  align-content: center;
+  background-image: url(https://files.slack.com/files-pri/T03F2SDTJ-FAEBWKM9V/venom-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.venomBoard {
+  background-color: rgb(10, 10, 54);
+  color: white;
+}
+
+venomHeader {
+  background-color: red;
+}
+
+venomH1 {
+  color: white;
 }
