@@ -21,7 +21,6 @@ const pushData = (e) => {
   console.log(messages);
   const messageUpdated = getMessages();
   dom.printToDom(messageUpdated);
-  // clearInput(inputVaule);
 };
 
 module.exports = {
