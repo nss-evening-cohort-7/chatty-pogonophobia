@@ -9,6 +9,8 @@ const messageClear = () => {
   const allMessages = data.getMessages();
 
   rebuildDom.printToDom(allMessages);
+
+  data.checkForMessages();
 };
 
 const addClearBtnEvent = () => {

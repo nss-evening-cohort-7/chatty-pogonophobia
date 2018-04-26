@@ -4,7 +4,6 @@ const body = document.getElementById('body');
 
 const addCheckBoxEvent = () =>
 {
-  console.log('poop');
   checkbox.addEventListener('change', (e) =>
   {
     console.log(e);
