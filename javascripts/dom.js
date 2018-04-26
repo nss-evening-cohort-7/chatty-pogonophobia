@@ -14,7 +14,6 @@ const buildDomString = (messages) =>
 
 const printToDom = (string) => {
   outputDiv.innerHTML = buildDomString(string);
-
 };
 
 module.exports =
