@@ -29,6 +29,7 @@ const pushData = (e) => {
   messages.push(inputObject);
   const messageUpdated = getMessages();
   dom.printToDom(messageUpdated);
+
   checkForMessages();
   // clearInput(inputVaule);
 };

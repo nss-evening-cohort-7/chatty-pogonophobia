@@ -42,5 +42,37 @@ h4 {
 }
 
 .venom {
-  background-color: black;
+  background-image: url(/img/venom-wallpaper.png);
+  background-color: #0B1D33;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.venomBoard {
+  background-color: rgb(10, 10, 54);
+  color: white;
+}
+
+.venomH1 {
+  color: white;
+}
+
+.venomNavbar {
+  margin: auto;
+  border-radius: 0%;
+  width: 100%;
+  padding: 10px;
+}
+
+.venomCheck {
+  color: red;
+}
+
+.venomButton {
+  color: red;
+}
+
+.deleteBtn {
+  color: black;
 }
