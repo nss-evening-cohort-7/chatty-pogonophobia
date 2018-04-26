@@ -9,9 +9,23 @@ const getMessages = () => {
 const setMessages = (messageArray) => {
   messages = messageArray;
   dom.buildDomString(messages);
+  console.log(messages);
+};
+
+const pushData = (e) => {
+  console.log(e);
+  const inputVaule = document.getElementById('inputField').value;
+  const inputObject = {};
+  inputObject.message = inputVaule;
+  messages.push(inputObject);
+  console.log(messages);
+  const messageUpdated = getMessages();
+  dom.printToDom(messageUpdated);
+  // clearInput(inputVaule);
 };
 
 module.exports = {
   getMessages,
   setMessages,
+  pushData,
 };
