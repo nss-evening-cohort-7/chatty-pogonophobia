@@ -6,6 +6,7 @@ function successXhr () {
   const data = JSON.parse(this.responseText).messages;
   data2.setMessages(data);
   dom.printToDom(data);
+  data2.checkForMessages();
 };
 
 function failXhr () {
