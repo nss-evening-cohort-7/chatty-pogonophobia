@@ -23,12 +23,10 @@ const setMessages = (messageArray) => {
 };
 
 const pushData = (e) => {
-  console.log(e);
   const inputValue = document.getElementById('inputField').value;
   const inputObject = {};
   inputObject.message = inputValue;
   messages.push(inputObject);
-  console.log(messages);
   const messageUpdated = getMessages();
   dom.printToDom(messageUpdated);
   checkForMessages();
