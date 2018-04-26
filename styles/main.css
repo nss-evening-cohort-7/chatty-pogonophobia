@@ -29,5 +29,35 @@ body{
 }
 
 .venom {
-  background-color: black;
+  background-image: url(https://files.slack.com/files-pri/T03F2SDTJ-FAEBWKM9V/venom-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.venomBoard {
+  background-color: rgb(10, 10, 54);
+  color: white;
+}
+
+.venomH1 {
+  color: white;
+}
+
+.venomNavbar {
+  margin: auto;
+  border-radius: 0%;
+  width: 100%;
+  padding: 10px;
+}
+
+.venomCheck {
+  color: red;
+}
+
+.venomButton {
+  color: red;
+}
+
+.deleteBtn {
+  color: black;
 }
