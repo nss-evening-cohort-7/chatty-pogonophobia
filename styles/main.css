@@ -39,10 +39,10 @@ body{
   color: white;
 }
 
-venomHeader {
-  background-color: red;
+.venomH1 {
+  color: white;
 }
 
-venomH1 {
-  color: white;
+.venomCheck {
+  color: red;
 }
