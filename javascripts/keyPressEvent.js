@@ -1,19 +1,17 @@
 const data = require('./data');
 
-// const inputField = document.getElementById('inputField');
-const inputKeypressEvent = document.getElementById('inputField');
+const clearInput = () => {
+  document.getElementById('inputField').value = '';
+};
 
-// const inputEvents = () => {
-//   inputField.addEventListener('keypress', pushData);
-//   inputField.addEventListener('keypress', clearInput);
-// };
+const inputKeypressEvent = document.getElementById('inputField');
 
 const keyPress = () => {
   inputKeypressEvent.addEventListener('keypress', function (e) {
     const key = e.keyCode;
     if (key === 13) {
       data.pushData(e);
-      inputKeypressEvent.innerHTML = '';
+      clearInput();
     }
   });
 };
