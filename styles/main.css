@@ -1,10 +1,23 @@
 body{
-  background-color: white;
+  background-color: #2C4E8E;
+  background-image: url(/img/spider-man-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: top right;
+}
+
+h1 {
+  color: white;
+}
+
+h4 {
+  color: #949AAA;
 }
 
 .navbar {
-  background-color: darkcyan;
+  background-color: #A34335;
   margin: auto;
+  border-bottom: solid 2px #949AAA;
   border-radius: 0%;
   width: 100%;
   padding: 10px;
