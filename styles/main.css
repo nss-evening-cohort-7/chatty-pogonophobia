@@ -43,6 +43,21 @@ body{
   color: white;
 }
 
+.venomNavbar {
+  margin: auto;
+  border-radius: 0%;
+  width: 100%;
+  padding: 10px;
+}
+
 .venomCheck {
   color: red;
+}
+
+.venomButton {
+  color: red;
+}
+
+.deleteBtn {
+  color: black;
 }
