@@ -4,11 +4,11 @@ const rebuildDom = require('./dom');
 const clearMessagesBtn = document.getElementById('clearBtn');
 
 const messageClear = () => {
-  let allMessages = data.getMessages();
-  allMessages = [];
+  data.setMessages([]);
+
+  const allMessages = data.getMessages();
 
   rebuildDom.printToDom(allMessages);
-  return allMessages;
 };
 
 const addClearBtnEvent = () => {
