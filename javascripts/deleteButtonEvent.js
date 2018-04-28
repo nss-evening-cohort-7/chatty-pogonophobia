@@ -1,13 +1,12 @@
 const messageBtns = document.getElementsByClassName('deleteBtn');
 const data = require('./data');
+const dom = require('./dom');
 
 const addMessageSelectionEventListeners = () => {
   for (let i = 0; i < messageBtns.length; i++) {
     messageBtns[i].addEventListener('click', (e) => {
       const messageId = grabId(e);
       removeArray(messageId);
-
-      console.log(messageId);
 
     });
   }
@@ -20,9 +19,13 @@ const grabId = (e) => {
 };
 
 const removeArray = (id) => {
-  const messages = data.getMessages();
 
-  console.log('messages', messages);
+  const messages = data.getMessages();
+  messages.splice(id, 1);
+
+  dom.printToDom(messages);
+  addMessageSelectionEventListeners();
+  data.setMessages(messages);
 
 };
 
