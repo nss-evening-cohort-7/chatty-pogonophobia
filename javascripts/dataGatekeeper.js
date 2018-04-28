@@ -7,7 +7,11 @@ function successXhr () {
   const data = JSON.parse(this.responseText).messages;
   data2.setMessages(data);
   dom.printToDom(data);
+
   deleteAction.addMessageSelectionEventListeners();
+
+  data2.checkForMessages();
+
 };
 
 function failXhr () {

@@ -1,12 +1,25 @@
 body{
-  background-color: white;
+  background-color: #2C4E8E;
+  background-image: url(/img/spider-man-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: top right;
+}
+
+h1 {
+  color: white;
+}
+
+h4 {
+  color: #949AAA;
 }
 
 .navbar {
-  background-color: darkcyan;
+  background-color: #A34335;
   margin: auto;
+  border-bottom: solid 2px #949AAA;
+  border-radius: 0%;
   width: 100%;
-  border: 3px solid green;
   padding: 10px;
 }
 
@@ -26,4 +39,43 @@ body{
     margin: auto;
     width: 50%;
     padding: 10px;
+}
+
+.venom {
+  background-image: url(/img/venom-wallpaper.png);
+  background-color: #0B1D33;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.venomBoard {
+  background-color: rgb(10, 10, 54);
+  color: white;
+}
+
+.venomH1 {
+  color: white;
+}
+
+.venomNavbar {
+  margin: auto;
+  border-radius: 0%;
+  width: 100%;
+  padding: 10px;
+}
+
+.venomCheck {
+  color: red;
+}
+
+.venomButton {
+  color: red;
+}
+
+.deleteBtn {
+  color: black;
+}
+.largeMarge{
+  font-size: 2em;
 }
