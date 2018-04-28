@@ -6,6 +6,17 @@ body{
   background-position: top right;
 }
 
+.newRow {
+  float: right;
+  position: relative;
+  top: 25px;
+}
+
+.head {
+  color: white;
+  size: 50px;
+}
+
 h1 {
   color: white;
 }
@@ -26,7 +37,6 @@ h4 {
 #logo{
   width: 80px;
   height: 80px;
-  border: 1px solid red;
 }
 
 #checkbox {
