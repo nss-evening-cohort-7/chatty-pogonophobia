@@ -1,4 +1,4 @@
-
+const deleteAction = require('./deleteButtonEvent');
 const outputDiv = document.getElementById('messages');
 
 const buildDomString = (messages) =>
@@ -15,6 +15,7 @@ const buildDomString = (messages) =>
 
 const printToDom = (string) => {
   outputDiv.innerHTML = buildDomString(string);
+  deleteAction.addMessageSelectionEventListeners();
 };
 
 module.exports =
