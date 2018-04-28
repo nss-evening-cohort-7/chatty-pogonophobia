@@ -31,7 +31,6 @@ const pushData = (e) => {
   dom.printToDom(messageUpdated);
 
   checkForMessages();
-  // clearInput(inputVaule);
 };
 
 module.exports = {

@@ -11,7 +11,6 @@ const addCheckBoxEvent = () =>
 {
   checkbox.addEventListener('change', (e) =>
   {
-    console.log(e);
     if (e.target.checked)
     {
       body.classList.add('venom');

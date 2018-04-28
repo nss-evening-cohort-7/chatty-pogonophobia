@@ -6,6 +6,11 @@ body{
   background-position: top right;
 }
 
+.head {
+  color: white;
+  size: 50px;
+}
+
 h1 {
   color: white;
 }
@@ -26,7 +31,10 @@ h4 {
 #logo{
   width: 80px;
   height: 80px;
-  border: 1px solid red;
+}
+
+.logos {
+  padding-right: 25px;
 }
 
 #checkbox {
