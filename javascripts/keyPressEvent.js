@@ -1,4 +1,5 @@
 const data = require('./data');
+const deleteBtn = require('./deleteButtonEvent');
 
 const clearInput = () => {
   document.getElementById('inputField').value = '';
@@ -12,6 +13,7 @@ const keyPress = () => {
     if (key === 13) {
       data.pushData(e);
       clearInput();
+      deleteBtn.addMessageSelectionEventListeners();
     }
   });
 };
