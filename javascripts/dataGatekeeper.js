@@ -1,12 +1,13 @@
 const http = require('./messages');
 const dom = require('./dom');
 const data2 = require('./data');
+const deleteAction = require('./deleteButtonEvent');
 
 function successXhr () {
   const data = JSON.parse(this.responseText).messages;
   data2.setMessages(data);
   dom.printToDom(data);
-  // deleteAction.addMessageSelectionEventListeners();
+  deleteAction.addMessageSelectionEventListeners();
 };
 
 function failXhr () {
