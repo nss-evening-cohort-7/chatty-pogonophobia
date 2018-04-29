@@ -1,20 +1,43 @@
-# Chatty Group Project
-Your group will be creating a chat application. The features your team will build have already been added to your backlog in the "projects" section of this repo. This application should demonstrate your skills in:
-- Modular code
-- Dependency chaining
-- Asynchronous code
-- DOM interaction
-- Debugging
+# Chatty Pogonophobics Project
 
-## Requirements
-* Use Bootstrap
-* Balanced GitHub contributions
-* Completed README
-* No Grunt errors
-* Use Browserify
+## Description
+This application serves as a virtual chatroom for people who love Spider-Man and also hate beards. When the page loads, the user sees a series of pre-populated messages. The user can interact with the app in the following ways: adding a message, changing the theme of the page by clicking the 'dark theme' box, increasing the font size by clicking the 'large text' box, deleting an individual message, and/or clearing all of the messages. 
 
-## Interacting With Your Product Owner
-Your group has been designated a product owner (one of the instructors). This product owner has the overall vision of the application and must approve your tickets before you start working on them. When you complete the MVP tickets in your backlog, you should reach out to your product owner to recieve tickets for additional features. Note that this project is often used as a portfolio project for students, so you and your team should push yourselves to get to the "game changer" bonus features, but only after you have a strong MVP.
+Skills demonstrated: ES6, JSON, XHR calls, modular code, dependency chaining, asynchronous code, DOM interaction, and debugging.
 
+## Screenshots
+[simple wireframe](https://app.moqups.com/chortlehoort/uGBbLbK46Y/view/page/a3bd0c733) 
 
-Check out the [simple wireframe](https://app.moqups.com/chortlehoort/uGBbLbK46Y/view/page/a3bd0c733) for this application on Moqups.com. You can make your final interface as fancy as you like, but keep the general layout similar to the wireframe.
+[View on page load]
+()
+
+[View when a new message is added]
+()
+
+[View when an individual message is deleted]
+()
+
+[View when the message board is cleared]
+()
+
+[Dark Theme view]
+()
+
+[Large Text view]
+()
+
+[Lower screen view of the Mars card]
+()
+
+## How to Run
+1. Clone down this repo and cd into project
+1. Install http-server plugin via npm
+1. In your terminal hs -p 8080
+1. This will show at http://localhost:8080 in your internet browser
+
+## Contributors
+[Thomas Dugan](https://github.com/ledugani)
+[Juno](https://github.com/Junochop)
+[Brian Wright](https://github.com/briankw23)
+[Corey Lutrick](https://github.com/Coreylutrick)
+[Nathan Pabst](https://github.com/nathanpabst)
