@@ -26,9 +26,6 @@ Skills demonstrated: ES6, JSON, XHR calls, modular code, dependency chaining, as
 [Large Text view]
 ()
 
-[Lower screen view of the Mars card]
-()
-
 ## How to Run
 1. Clone down this repo and cd into project
 1. Install http-server plugin via npm
