@@ -14,6 +14,7 @@ const keyPress = () => {
       data.pushData(e);
       clearInput();
       deleteBtn.addMessageSelectionEventListeners();
+      deleteBtn.editEventListener();
     }
   });
 };

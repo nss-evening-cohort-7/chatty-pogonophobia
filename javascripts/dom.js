@@ -6,7 +6,10 @@ const buildDomString = (messages) =>
   messages.forEach((message, index) => {
     domString += `<div data-message-id='${index}' class='messages'>`;
     domString +=  `<p>${message.message}</p>`;
-    domString +=  `<button class='deleteBtn btn btn-default'>Delete</button>`;
+
+    domString +=  `<button class='edit btn btn-default'>Edit</button>`;
+
+    domString +=  `<button class='deleteBtn btn btn-default''>Delete</button>`;
     domString += `</div>`;
   });
   return domString;
@@ -14,7 +17,6 @@ const buildDomString = (messages) =>
 
 const printToDom = (string) => {
   outputDiv.innerHTML = buildDomString(string);
-
 };
 
 module.exports =
