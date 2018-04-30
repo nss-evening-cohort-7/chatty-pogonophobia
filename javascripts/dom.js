@@ -6,7 +6,7 @@ const buildDomString = (messages) =>
   messages.forEach((message, index) => {
     domString += `<div data-message-id='${index}' class='messages'>`;
     domString +=  `<p>${message.message}</p>`;
-    domString +=  `<button class='deleteBtn'>Delete</button>`;
+    domString +=  `<button class='deleteBtn btn btn-default'>Delete</button>`;
     domString += `</div>`;
   });
   return domString;
