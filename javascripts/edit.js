@@ -1,5 +1,6 @@
 const data = require('./data');
 const dom = require('./dom');
+const delete2 = require('./deleteButtonEvent');
 
 const editButton = document.getElementsByClassName('edit');
 const saveButton = document.getElementsByClassName('save');
@@ -45,6 +46,8 @@ const editMessages = (inputObject, inputId) => {
   messageUpdated[inputId] = inputObject;
   console.log('updated',messageUpdated);
   dom.printToDom(messageUpdated);
+  editEventListener();
+  delete2();
 };
 
 module.exports = editEventListener;
