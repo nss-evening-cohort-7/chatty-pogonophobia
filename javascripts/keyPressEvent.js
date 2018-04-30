@@ -1,6 +1,5 @@
 const data = require('./data');
 const deleteBtn = require('./deleteButtonEvent');
-const edit = require('./edit');
 
 const clearInput = () => {
   document.getElementById('inputField').value = '';
@@ -15,7 +14,7 @@ const keyPress = () => {
       data.pushData(e);
       clearInput();
       deleteBtn.addMessageSelectionEventListeners();
-      edit();
+      deleteBtn.editEventListener();
     }
   });
 };

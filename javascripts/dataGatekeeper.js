@@ -2,7 +2,6 @@ const http = require('./messages');
 const dom = require('./dom');
 const data2 = require('./data');
 const deleteAction = require('./deleteButtonEvent');
-const edit = require('./edit');
 
 function successXhr () {
   const data = JSON.parse(this.responseText).messages;
@@ -10,7 +9,7 @@ function successXhr () {
   dom.printToDom(data);
   deleteAction.addMessageSelectionEventListeners();
   data2.checkForMessages();
-  edit();
+  deleteAction.editEventListener();
 };
 
 function failXhr () {
