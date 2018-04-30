@@ -1,22 +1,22 @@
 # Chatty Pogonophobics Project
 
 ## Description
-This application serves as a virtual chatroom for people who love Spider-Man and also hate beards. When the page loads, the user sees a series of pre-populated messages. The user can interact with the app in the following ways: adding a message, changing the theme of the page by clicking the 'dark theme' box, increasing the font size by clicking the 'large text' box, deleting an individual message, and/or clearing all of the messages. 
+This application serves as a virtual chatroom for people who love Spider-Man and also hate beards. When the page loads, the user sees a series of pre-populated messages. The user can interact with the app in the following ways: adding a message, editing a message, changing the theme of the page by clicking the 'dark theme' box, increasing the font size by clicking the 'large text' box, deleting an individual message, and/or clearing all of the messages. 
 
 Skills demonstrated: ES6, JSON, XHR calls, modular code, dependency chaining, asynchronous code, DOM interaction, and debugging.
 
 ## Screenshots
 [simple wireframe](https://app.moqups.com/chortlehoort/uGBbLbK46Y/view/page/a3bd0c733) 
 
-[View on page load](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.41.51%20PM.png)
+[View on page load](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/2e5361ae0700f7b996d056e6336162cdc702229b/screenshots/Screen%20Shot%202018-04-30%20at%203.09.44%20PM.png)
 
-[View when a new message is added](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.44.07%20PM.png)
+[View when a new message is added](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/2e5361ae0700f7b996d056e6336162cdc702229b/screenshots/Screen%20Shot%202018-04-30%20at%203.11.43%20PM.png)
 
 [View when the message board is cleared](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.44.29%20PM.png)
 
-[Dark Theme view](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.42.26%20PM.png)
+[Dark Theme view](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/2e5361ae0700f7b996d056e6336162cdc702229b/screenshots/Screen%20Shot%202018-04-30%20at%203.10.05%20PM.png)
 
-[Large Text view](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.43.02%20PM.png)
+[Large Text view](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/2e5361ae0700f7b996d056e6336162cdc702229b/screenshots/Screen%20Shot%202018-04-30%20at%203.10.25%20PM.png)
 
 ## How to Run
 1. Clone down this repo and cd into project
