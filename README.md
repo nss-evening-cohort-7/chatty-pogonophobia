@@ -8,23 +8,15 @@ Skills demonstrated: ES6, JSON, XHR calls, modular code, dependency chaining, as
 ## Screenshots
 [simple wireframe](https://app.moqups.com/chortlehoort/uGBbLbK46Y/view/page/a3bd0c733) 
 
-[View on page load]
-()
+[View on page load](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.41.51%20PM.png)
 
-[View when a new message is added]
-()
+[View when a new message is added](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.44.07%20PM.png)
 
-[View when an individual message is deleted]
-()
+[View when the message board is cleared](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.44.29%20PM.png)
 
-[View when the message board is cleared]
-()
+[Dark Theme view](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.42.26%20PM.png)
 
-[Dark Theme view]
-()
-
-[Large Text view]
-()
+[Large Text view](https://raw.githubusercontent.com/nss-evening-cohort-7/chatty-pogonophobia/0b696a090e596b4e240e36fe3d359d6faaf120d1/screenshots/Screen%20Shot%202018-04-30%20at%202.43.02%20PM.png)
 
 ## How to Run
 1. Clone down this repo and cd into project
