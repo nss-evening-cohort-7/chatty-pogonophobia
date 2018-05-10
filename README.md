@@ -21,8 +21,10 @@ Skills demonstrated: ES6, JSON, XHR calls, modular code, dependency chaining, as
 ## How to Run
 1. Clone down this repo and cd into project
 1. Install http-server plugin via npm
-1. In your terminal hs -p 8080
-1. This will show at http://localhost:8080 in your internet browser
+1. CD into the lib directory and run npm install via command line.
+1. In the lib directory run the command grunt.
+1. CD to the root of the directory and type hs to start the local http-server.
+1. The terminal will give you a URL, such as http://127.0.0.1:8081, enter that address into your web browser.
 
 ## Contributors
 [Thomas Dugan](https://github.com/ledugani)
